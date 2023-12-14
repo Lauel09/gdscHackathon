@@ -1,0 +1,41 @@
+
+<html lang="en">
+
+<head>
+    <title>Accessible Webpage</title>
+    <script src="/bundle.js"></script>
+    <script defer src="/face-api.js"></script>
+    <script type="module" src="/script.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #333;
+            color: white;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        #output {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        canvas {
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <video id="video" width="720" height="560" autoplay muted src="/Kazam_screencast_00009.mp4"></video>
+</body>
+
+</html>
